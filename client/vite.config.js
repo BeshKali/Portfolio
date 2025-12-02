@@ -8,7 +8,7 @@ export default defineConfig({
     'process.env': {},
   },
   server: {
-    port: 5173,          // Set the port to 5173
+    port: 5174,          // Set the port to 5173
     strictPort: true,    // Prevent switching to another port if 5173 is in use
   },
 });

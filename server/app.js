@@ -33,7 +33,7 @@ app.post('/contact', (req, res) => {
   // Mail options
   const mailOptions = {
     from: email,
-    to: 'your-email@example.com', // Replace with your email address
+    to: GMAIL_USER, // Replace with your email address
     subject: `New Contact Message from ${name}`,
     text: `You have received a new message from ${name} (${email}):\n\n${message}`,
   };
